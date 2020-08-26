@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafting Grid</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./items.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="container blur">
+            <h2>Crafting Grid</h2>
+            <h5>Warning: If you move crafting grid output item into the crafting grid, <br>it will dissapear and vise versa! (Use Shift Click to move items)</h5>
+            <br>
+            <div id="crafting_grid-container" class="crafting_grid-container"></div>
+	        <br>
+            <div class="crafting_grid-container"><tr><td><div id="crafting_grid-output" class="item"></div></td></tr></div>
+            <br>
+            <h2>Inventory</h2>
+            <h5>Where all your items are stored!</h5>
+            <br>
+            <div id="inventory-container" class="inventory-container"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+html {
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: calc(100vh + 100vw);
+}
+
+.container {
+    padding: 1rem 1.5rem;
+}
+
+.selected {
+    outline: 1.5px solid lime !important;
+}
+
+/* Items */
+.item {
+    padding: .9rem;
+    outline: 1.5px solid white;
+    color: white;
+}
+
+/* Crafting */
+.crafting_grid-container {
+    display: flex;
+}
+
+/* Inventory */
+.inventory-container {
+    display: flex;
+}
